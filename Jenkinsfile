@@ -9,6 +9,7 @@ pipeline {
 		  sh 'cat /etc/os-release'
 		  sh 'uptime'
 		  sh 'df -h'
+		echo 'ohh its working after a commit as well'
         }
    }
    stage('Test') {
